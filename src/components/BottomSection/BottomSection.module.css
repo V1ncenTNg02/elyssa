@@ -1,0 +1,57 @@
+.text:hover {
+    background: linear-gradient(
+      96.4deg,
+      #44c0d8 -4.63%,
+      #1878c8 18.67%,
+      #7366bc 40.81%,
+      #bb71bf 62.95%,
+      #f97382 85.08%,
+      #f7a95e 107.22%
+    );
+    width: fit-content;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+  }
+
+  .icons{
+    @apply
+    flex
+    flex-row 
+    flex-wrap 
+    gap-5 
+    px-4 
+    items-center
+    justify-center;
+  }
+
+  .iconWrapper{
+    @apply
+    mx-1
+    -inset-1
+    rounded-sm
+    opacity-75;
+    background-image: linear-gradient(
+      96.4deg,
+      #44c0d8 -4.63%,
+      #1878c8 18.67%,
+      #7366bc 40.81%,
+      #bb71bf 62.95%,
+      #f97382 85.08%,
+      #f7a95e 107.22%
+    );
+  }
+
+  .icon{
+    @apply
+    w-9
+    h-auto
+    flex          
+    justify-around
+    items-center
+    rounded-sm
+    p-1
+    mx-[1px]
+    my-[1px]
+    bg-[#01021e];
+  }

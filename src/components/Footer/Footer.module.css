@@ -1,0 +1,21 @@
+.footer {
+  background: linear-gradient(
+    96.4deg,
+    #44c0d8 -4.63%,
+    #1878c8 18.67%,
+    #7366bc 40.81%,
+    #bb71bf 62.95%,
+    #f97382 85.08%,
+    #f7a95e 107.22%
+  );
+  @apply w-full
+    min-h-[70px]
+    px-5
+    grid
+    grid-cols-1
+  text-white
+    gap-4
+    text-center
+    content-center
+    lg:grid-cols-3;
+}

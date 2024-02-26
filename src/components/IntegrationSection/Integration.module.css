@@ -1,0 +1,52 @@
+.contentTitle {
+  font-size: 24px;
+  line-height: 103%;
+  margin-bottom: 12px;
+}
+
+.contentParagraph {
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.8;
+  text-shadow: 0 8px 20px rgba(18, 17, 39, 0.25);
+}
+
+.contentList {
+  margin-left: 25px;
+  font-size: 14px;
+  line-height: 21px;
+
+  opacity: 0.7;
+  text-shadow: 0 8px 20px rgba(18, 17, 39, 0.25);
+}
+
+.contentListItem {
+  list-style-type: disc;
+}
+
+.contentBox {
+  background: linear-gradient(
+    96.4deg,
+    #44c0d8 -4.63%,
+    #1878c8 18.67%,
+    #7366bc 40.81%,
+    #bb71bf 62.95%,
+    #f97382 85.08%,
+    #f7a95e 107.22%
+  );
+  @apply h-auto
+  rounded-lg 
+  p-[2px];
+}
+
+.p {
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 0 8px 20px rgba(18, 17, 39, 0.25);
+}
+
+.textWrapper {
+  @apply w-1/2 
+  text-center 
+  mx-auto;
+}

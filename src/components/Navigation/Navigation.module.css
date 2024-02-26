@@ -1,0 +1,156 @@
+.navBarLayout {
+  @apply relative 
+    flex 
+    h-24
+    max-w-[1270px]
+    items-center
+    justify-between;
+}
+
+.linksContainer {
+  @apply flex 
+    items-center 
+    justify-end 
+    w-full
+    flex-row;
+}
+
+.navListContainer {
+  @apply mx-1
+    flex;
+}
+
+.navBarButton {
+  @apply text-white
+    px-3
+    max-md:hidden;
+}
+
+.navBarButton:hover {
+  background: linear-gradient(
+    96.4deg,
+    #44c0d8 -4.63%,
+    #1878c8 18.67%,
+    #7366bc 40.81%,
+    #bb71bf 62.95%,
+    #f97382 85.08%,
+    #f7a95e 107.22%
+  );
+  width: fit-content;
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  text-align: center;
+
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    96.4deg,
+    #44c0d8 -4.63%,
+    #1878c8 18.67%,
+    #7366bc 40.81%,
+    #bb71bf 62.95%,
+    #f97382 85.08%,
+    #f7a95e 107.22%
+  );
+  border-image-slice: 1;
+}
+
+.iconsContainer {
+  @apply mr-3
+  lg:mr-0
+  flex
+  flex-row
+  gap-3;
+}
+
+.linkIcon {
+  @apply w-[28px]
+    h-[28px]
+    mx-1
+    -inset-1
+    rounded-sm
+    opacity-75;
+    background-image: linear-gradient(
+      96.4deg,
+      #44c0d8 -4.63%,
+      #1878c8 18.67%,
+      #7366bc 40.81%,
+      #bb71bf 62.95%,
+      #f97382 85.08%,
+      #f7a95e 107.22%
+    );
+}
+
+.icon {
+  @apply w-[25px]
+    h-[25px]
+    flex
+    justify-around
+    items-center
+    rounded-sm
+    mx-[1px]
+    my-[1px]
+    bg-indigo-950;
+}
+
+.mobileMenu {
+  @apply md:hidden
+    h-screen
+    w-screen
+    fixed
+    z-50
+    pt-[8rem]
+    bg-black
+    bg-opacity-80
+    justify-self-center
+    mt-[-6rem]
+    p-12
+    md:p-0
+    md:pb-0
+    md:mt-0;
+  animation-duration: 0.8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 0%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+.mobileMenuList {
+  @apply h-screen
+    items-center
+    justify-center
+    md:flex;
+}
+
+.mobileMenuItem {
+  @apply py-5
+    text-xl
+    text-white
+    md:px-0
+    text-center
+    border-b-0
+    md:border-b-0;
+}
+
+.mobileMenuItem:hover {
+  background: linear-gradient(
+    96.4deg,
+    #44c0d8 -4.63%,
+    #1878c8 18.67%,
+    #7366bc 40.81%,
+    #bb71bf 62.95%,
+    #f97382 85.08%,
+    #f7a95e 107.22%
+  );
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}

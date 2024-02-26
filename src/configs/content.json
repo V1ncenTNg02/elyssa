@@ -1,0 +1,73 @@
+{
+  "navigation": [
+    { "name": "Home", "href": "/" },
+    { "name": "About us", "href": "/" },
+    { "name": "Whitepaper", "href": "/" },
+    { "name": "Roadmap", "href": "/" },
+    { "name": "Tokenomics", "href": "/" },
+    { "name": "Buy", "href": "/" }
+  ],
+  "icon": [
+    { "name": "telegram", "href": "/", "src": "/assets/tg.png" },
+    { "name": "twitter", "href": "/", "src": "/assets/tweet.png" },
+    { "name": "dextools", "href": "/", "src": "/assets/dextools.png" },
+    { "name": "linktree", "href": "/", "src": "/assets/linktree-icon.png" }
+  ],
+  "content": [
+    {
+      "index": 1,
+      "name": "ACADEMY",
+      "picture": "/assets/ACADEMY.png",
+      "content": "ACADEMY is an educational app that transcends traditional learning methods by leveraging the power of augmented reality. It offers an immersive experience that enables students to gain a deeper understanding of various subjects by observing 3D models up close, revolutionizing the way we study and comprehend complex concepts.",
+      "title": "/assets/AcademyPic.png",
+      "hasStore": true
+    },
+    {
+      "index": 2,
+      "name": "ETHEREAL",
+      "picture": "/assets/ACADEMY-Main-Pic.png",
+      "content": "Project Elyssa will push the boundaries of human experience with the launch of ETHEREAL - a groundbreaking, sensual augmented reality app. Unlike anything seen before, ETHEREAL will offer an immersive and enticing journey into the realm of erotic artistry, combining static models, animations, and videos to create a captivating experience that caters to various tastes and desires.",
+      "title": "/assets/EtherealPic.png",
+      "hasStore": false
+    },
+    {
+      "index": 3,
+      "name": "FURRBLE",
+      "picture": "/assets/FURRABLE.png",
+      "content": "Introducing FURRBLE, the virtual pets application under the Elyssa brand that brings the magic of animated animals into your real world through AR technology. Just like the nostalgic Tamagotchi, but with a modern twist, FURRBLE will allow you to choose from a variety of adorable species to raise and nurture without the real-world responsibilities.",
+      "title": "/assets/FurrablePic.png",
+      "hasStore": false
+    },
+    {
+      "index": 4,
+      "name": "MIRRA",
+      "picture": "/assets/MIRRA.png",
+      "content": "With MIRRA, the virtual dressing room app, people will be able to try on different types of clothes and effortlessly change colors without the hassle of visiting an actual dressing room or handling physical garments. This premium app will be designed to cater to both amateur users seeking fashion advice at home and companies looking to enhance their business strategies with cutting-edge augmented reality technology.",
+      "title": "/assets/MirraPic.png",
+      "hasStore": false
+    },
+    {
+      "index": 5,
+      "name": "QUICKPICK",
+      "picture": "/assets/QUICKPICK.png",
+      "content": "Elyssa plans to develop QUICKPICK, the augmented reality grocery companion app that aims to revolutionize the way we shop, making it not only convenient but also educational and engaging. QUICKPICK will harness the potential of augmented reality to provide a unique and immersive shopping experience. Using your smartphone's camera, the app will overlay digital information onto real-world products, unlocking a wealth of valuable data at your fingertips.",
+      "title": "/assets/QuickpickPic.png",
+      "hasStore": false
+    },
+    {
+      "index": 6,
+      "name": "Venture",
+      "picture": "/assets/VENTURE.png",
+      "content": "The concept behind Venture is simple yet groundbreaking - it will enable users to explore popular tourist destinations and even exotic locations from the comfort of their living rooms. Whether you are unable to travel due to financial constraints or have reservations about stepping out of your comfort zone, Venture will break down these barriers, offering an unparalleled virtual travel experience.",
+      "title": "/assets/VenturePic.png",
+      "hasStore": false
+    }
+  ],
+  "iconSection": [
+    { "src": "/assets/Layer_4.png", "text": "In-app Purchases" },
+    { "src": "/assets/Layer_4-1.png", "text": "Premium Application" },
+    { "src": "/assets/Layer_4-2.png", "text": "Advertising" },
+    { "src": "/assets/Layer_4-3.png", "text": "Services" },
+    { "src": "/assets/Layer_4-4.png", "text": "Augmented Reality NFTs" }
+  ]
+}

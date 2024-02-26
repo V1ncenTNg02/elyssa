@@ -1,0 +1,126 @@
+.contentTitle {
+  font-size: 32px;
+  line-height: 103%;
+  margin: 0 0 10px;
+}
+
+.contentList {
+  margin-left: 25px;
+  font-size: 14px;
+  line-height: 21px;
+
+  opacity: 0.7;
+  text-shadow: 0 8px 20px rgba(18, 17, 39, 0.25);
+}
+
+.contentListItem {
+  list-style-type: disc;
+}
+
+.timeline {
+  @apply relative
+  mt-5
+  mx-auto
+  z-10;
+}
+
+.timeline::after {
+  @apply absolute
+  w-[6px]
+  rounded-[26px]
+  left-[5px]
+  top-0
+  bottom-0
+  ml-[-3px]
+  h-[calc(100%-70px)]
+  lg:h-[calc(100%-125px)]
+  lg:left-[50%];
+
+  content: "";
+  background: linear-gradient(
+    180deg,
+    #32b4d4 0,
+    #7367bd 29.17%,
+    #b870be 66.67%,
+    #fbab6e 100%
+  );
+}
+
+.contentBox {
+  background: linear-gradient(
+    96.4deg,
+    #44c0d8 -4.63%,
+    #1878c8 18.67%,
+    #7366bc 40.81%,
+    #bb71bf 62.95%,
+    #f97382 85.08%,
+    #f7a95e 107.22%
+  );
+  @apply h-fit 
+  rounded-md 
+  p-[2px];
+  z-index: 1000;
+}
+
+.contentDotBlue::after {
+  content: "";
+  @apply absolute
+  top-[60px]
+  left-[-15px]
+  h-[30px]
+  rounded-full
+  w-[30px];
+
+  background: #39add2 !important;
+  z-index: 1000;
+}
+
+.contentDotPurple::after {
+  content: "";
+  @apply absolute
+  top-[60px]
+  h-[30px]
+  rounded-full
+  z-50
+  w-[30px]
+  lg:right-[-15px]
+  max-[1024px]:left-[-15px];
+
+  background: #7467bd !important;
+  z-index: 1000;
+}
+
+.container {
+  @apply relative 
+  p-[20px]
+  md:px-[80px]
+  md:py-[20px]
+  w-full
+  lg:w-[50%];
+}
+
+.roadmapCatRight {
+  @apply absolute
+  left-[114%]
+  top-[10%]
+  hidden
+  lg:block;
+}
+
+.roadmapCatLeft {
+  @apply absolute
+  left-[-35%]
+  top-[10%]
+  hidden
+  lg:block;
+}
+
+.right {
+  @apply left-[5px]
+  lg:left-[50%];
+}
+
+.left {
+  @apply left-[5px]
+  lg:left-0;
+}

@@ -1,0 +1,45 @@
+.column {
+  text-shadow: 0 8px 20px rgba(18, 17, 39, 0.25);
+  @apply w-fit
+    text-[22px];
+}
+
+.unorderedList {
+  margin-left: 33px;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  @apply list-disc pl-3 text-[26px] w-fit flex flex-col justify-center items-center md:items-start;
+}
+
+.button {
+  @apply w-full 
+  h-auto;
+}
+
+.buttonOuter {
+  background: linear-gradient(45deg, #32b4d4, #7367bd, #b870be, #fbab6e);
+  @apply w-full 
+  h-auto
+  border
+  p-[1px]
+  rounded-md;
+}
+
+.buttonMask {
+  @apply bg-[#01021e] 
+  w-full
+  h-full 
+  flex 
+  items-center 
+  justify-center 
+  rounded-md 
+  hover:bg-transparent;
+}
+
+.buttonInner {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  @apply py-[25px];
+}
