@@ -1,40 +1,14 @@
-# Hey Dude Website
+# Elyssa
 
-Hey Dude is built using Next.js 13 and Tailwind CSS
+## Overview
+This static website serves as a showcase for the features and capabilities of the Elyssa project. As a template, it requires the insertion of relevant information to complete the sections that are currently left blank.
 
-## Features
+## Techstack
 
-- [Next.js 13](https://nextjs.org/) with basic directory structure and custom configurations
-- [Tailwind CSS](https://tailwindcss.com/) for efficient production builds
-- [Yarn](https://yarnpkg.com/) as the package manager for easy package management
-- [MIT license](https://opensource.org/licenses/MIT) for open-source use and collaboration
+### Frontend
+Nextjs, TailwindCSS, TypeScript
 
-## Getting Started
-
-To get started with this template, follow these steps:
-
-1. Clone the repository:
-
-2. Node Version: 18.X
-
-3. Navigate to the project directory:
-
-```bash
-$ cd hey-dude-website
-```
-
-4. Install dependencies with Yarn:
-
-```bash
-$ yarn install
-```
-
-5. Start the development server:
-
-```bash
-$ yarn dev
-```
-
-## License
-
-This website is released under the MIT license.
+## Demo
+![Image1](/public/Image1.png)
+![Image2](/public/Image2.png)
+![Image3](/public/Image3.png)
